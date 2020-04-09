@@ -1,0 +1,136 @@
+ *{
+    margin:0px;
+    padding:0px;
+    /* border:0px; */
+ }
+#textbox
+{   
+    border-spacing: 0px;
+    position: fixed;
+    width: 410px;
+    top:100px; 
+    left:300px;
+    
+}
+#signinbutton
+{
+    font-family: sans-serif;
+    color:blue;
+    background-color: white;
+    border:1px solid blue;
+    position: fixed;
+    height:2.65em;
+    width: 100px;
+    top:65px;
+    left:1400px;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+}
+#searchbutton
+{
+    height:2.65em;
+    width: 100px;
+    position: fixed;
+    left: 710px;
+    top:65px;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+    border:1px solid black;
+    padding: 0px;
+    background-color: white;
+    z-index: 1;
+}
+#input
+{
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+    height:2.5em;
+    width:410px;
+    position: fixed;
+    top:65px;
+    left:300px;
+    border:1px solid blue;
+    padding: 0px;
+    z-index: 1;
+}
+#toptxt
+{
+    font-size: 1.5em;
+    font-family: sans-serif;
+    text-decoration: none;
+    color:black;
+}
+#top
+{
+    height:150px;
+    text-align:left;
+    background-color:#f1f3f4;
+    box-shadow: 1px 2px 3px  rgba(0,0,0,0.2);
+}
+
+.vidlink
+{
+    text-decoration: none;
+    color:black;
+    font-weight:700;
+}
+.vidlink:hover
+{
+    color:red;
+}
+#dropdown
+{
+    background-color: white;
+    /* display: none;   */
+
+    box-shadow: 1px 2px 3px  rgba(0,0,0,0.2); 
+    padding-right: 0;
+    width: 70%;
+    text-align: left;
+    position: relative;
+    top:-100px;
+    font-family:sans-serif;
+
+}
+
+.droplink
+{
+    height: 2em;
+    margin: 0px;
+    
+    /* padding-right: 20%; */
+}   
+.droplink:hover
+{
+    background-color:#f1f3f4;
+}
+#favourites
+{
+    z-index: -1;
+    font-family:sans-serif;
+    font-weight: 800;
+    font-size: 1.5em;
+    position:fixed;
+    top:170px;
+    left:20px;
+}
+#table
+{
+    position:fixed;
+    z-index:-1;
+    top:230px;
+    overflow: auto;
+   
+}
+#table2
+{   
+    position:fixed;
+    z-index:-1;
+    top:530px;
+    overflow: auto;
+}
+#table3
+{
+    position:fixed;
+    z-index:-1;
+    top:830px;
+    overflow: auto;
+}
+
