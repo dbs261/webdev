@@ -1,0 +1,147 @@
+ *{
+    margin:0px;
+    padding:0px;
+    /* border:0px; */
+    
+ }
+body
+{
+    transition: 10s;
+    overflow: auto;
+}
+#gridcontainer
+{
+    position: relative;
+    left:10px;
+    display:inline-grid;
+    grid-template-columns: auto auto auto auto;
+}
+.vids
+{
+    text-decoration: none;
+}
+#signinbutton
+{
+    font-family: sans-serif;
+    color:blue;
+    background-color: white;
+    border:1px solid blue;
+    position: relative;
+    height:2.65em;
+    width: 100px;
+    top:6px;
+    left:1150px;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+}
+#searchbutton
+{
+    height:2.65em;
+    width: 100px;
+    position: relative;
+    left: 615px;
+    top:6px;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+    border:1px solid black;
+    /* padding: 0px; */
+    background-color: white;
+    z-index: 1;
+}
+
+#input
+{
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+    height:2.5em;
+    width:410px;
+    position: relative;
+    top:6px;
+    left:98px;
+    border:1px solid blue;
+    padding: 0px;
+    z-index: 1;
+}
+/* #input:hover, #dropdown:hover
+{
+    display: block;
+    position: relative;
+    top:6px;
+    left:98px;
+} */ 
+#toptxt
+{
+    font-size: 1.5em;
+    font-family: sans-serif;
+    text-decoration: none;
+    color:black;
+}
+#top
+{
+    height:150px;
+    text-align:left;
+    background-color:#f1f3f4;
+    box-shadow: 1px 2px 3px  rgba(0,0,0,0.2);
+}
+
+.vidlink
+{
+    text-decoration: none;
+    color:black;
+    font-weight:700;
+}
+.vidlink:hover
+{
+    color:red;
+}
+
+.pic
+{
+    transition: transform 500ms ease-in-out;
+}
+
+.pic:hover
+{
+    transform: scale(1.2);
+}
+#dropdown
+{
+    background-color: white;
+    /* display: none;   */
+    box-shadow: 1px 2px 3px  rgba(0,0,0,0.2); 
+    width: 410px;
+    text-align: left;
+    position: absolute;
+    top:103px;
+    left:506px;
+    font-family:sans-serif;
+}
+/* #input:hover,#dropdown:hover
+{
+
+} */
+#dropdown ul
+{
+    list-style: none;
+}
+#dropdown ul li
+{
+    height: 2em;
+    margin: 0px;
+    padding: 0px;
+    width:410px;
+    /* padding-right: 20%; */
+}   
+#dropdown ul li:hover
+{
+    background-color:#f1f3f4;
+}
+#favourites
+{
+    z-index: -1;
+    font-family:sans-serif;
+    font-weight: 800;
+    font-size: 1.5em;
+    position: relative;;
+    top:30px;
+    left:20px; 
+}
+
+ 

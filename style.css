@@ -1,0 +1,88 @@
+.nu
+{
+    text-decoration: none;
+    font-family: sans-serif;
+    color:black;
+    position: relative;
+    
+}
+
+body{
+    padding:0px;
+    margin:0px;
+    border:0px;
+}
+
+img[src='New folder/circle-cropped.PNG']
+{
+    height:80px;
+}
+img[src='New folder/circle-cropped (1).PNG']
+{
+    height:80px;
+}
+.nu:hover
+{
+   text-decoration:underline;
+}
+
+.metube
+{
+    font-size: 1.1em;
+    padding:15px;
+    border:0px;
+    margin:0px;
+    border-radius: 8px;
+    transition: background-color,transform 300ms ease-in-out;
+}
+.zetflix
+{
+    font-size: 1.1em;
+    padding:15px;
+    border:0px;
+    margin:0px;
+    border-radius: 8px;
+    transition: background-color,transform 300ms ease-in-out;
+}
+.metube:hover
+{
+    background-color: #91a3a8;
+    transform:scale(1.5);
+}
+
+.zetflix:hover
+{
+    background-color: #91a3a8;
+    transform:scale(1.5);
+}
+
+#btlinks:hover
+{
+    background-color: rgb(148, 146, 146);
+}
+
+#koogle
+{
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 4em;
+}
+#input
+{
+    width: 600px;
+    height: 1.5em;
+    font-size: 1.5em;
+    border-radius: 20px;
+}
+#link
+{
+    position: relative;
+    top:-5px;
+    left:-4px;
+    width:100px;
+    height:38px;
+    border-radius:12px;
+    font-family: sans-serif;
+    font-size: 15px;
+    
+}

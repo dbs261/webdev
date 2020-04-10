@@ -1,0 +1,76 @@
+
+#title
+{
+    color:rgba(255,0,0,0.9);
+    font-family: sans-serif;
+    font-size: 50px;
+    position: fixed;
+    left:120px;
+    font-weight: 600;
+    animation: spin 6s linear infinite alternate;
+}
+
+#signinbutton
+{
+    background-color: rgba(255,0,0,0.9);
+    color:white;
+    position:fixed;
+    border-radius: 8px;
+    font-family: sans-serif;
+    height:2.65em;
+    width: 100px;
+    top:60px;
+    left:1380px;
+    border:0px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    transition: transform 500ms ease-in-out;
+}
+#signinbutton:hover
+{
+    background-color: red;
+    transform:scale(1.2);
+}
+#tryitnow
+{
+    background-color: rgba(255,0,0,0.9);
+    color:white;
+    position:fixed;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    border:0px;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    height:4em;
+    width: 280px;
+    top:400px;
+    left:630px;
+    transition: transform 500ms ease-in-out;
+}
+#tryitnow:hover
+{
+    background-color: red;
+    transform:scale(1.2);
+}
+#infotxt
+{
+    color:white;
+    text-align:center;
+    position: fixed;
+    left:360px;
+    font-size: 4em;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+@keyframes spin
+{
+    0%
+    {
+        transform: scale(1);
+    }
+
+    100%
+    {
+        transform: scale(2);
+    }
+
+}
